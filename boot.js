@@ -250,10 +250,10 @@ XeonLft = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeUR
 	            const xdate = moment.tz('Asia/Kolkata').format('YYYY/MM/DD')
 	            const xmembers = metadata.participants.length
                 let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: XeonWlcm, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
-                 xeonbody = `🤭🌹 Hi👋 @${xeonName.split("@")[0]}
+                 xeonbody = ` Hi there @${XeonName.split("@")[0]}
 
-🤭🌹 Welcome To  ${metadata.subject}
-🤭🌹 ${xmembers} Members
+ Welcome To  ${metadata.subject}
+ ${xmembers} fr 
 
 Date  =  ${xdate}
 Time  =  ${xtime} `
@@ -261,7 +261,7 @@ Time  =  ${xtime} `
    //dont forget to put my name(Xeon) as credit
    //you fail to put, i sue you for sure!
    let buttons = [
-    {buttonId: `owner`, buttonText: {displayText: '🙏WELCOME🙏'}, type: 1}
+    {buttonId: `owner`, buttonText: {displayText: 'WELCOME'}, type: 1}
     ]
 let buttonMessage = {
     image: { url: 'https://i.ibb.co/0h3Sv26/20220805-080104.jpg'},
@@ -279,16 +279,16 @@ KUMUTHU.sendMessage(anu.id, buttonMessage)
                 	let xeonName = num
                     const xeonmembers = metadata.participants.length
                     let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: xeonbuffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
-                     xeonbody = `😒🌹 Bye👋 @${xeonName.split("@")[0]}
+                     xeonbody = ` Bye bro  @${xeonName.split("@")[0]}
 
-😒🌹 Left From  ${metadata.subject}
-😒🌹 ${xeonmembers} Members
+ Left From  ${metadata.subject}
+ ${xeonmembers} Members
                     
 Date =  ${xeondate}
 Time =  ${xeontime} `
 
    let buttons = [
-    {buttonId: `owner`, buttonText: {displayText: '👎BYE👎'}, type: 1}
+    {buttonId: `owner`, buttonText: {displayText: 'bye bro'}, type: 1}
     ]
     let buttonMessage = {
         image: { url: 'https://i.ibb.co/H4h3mh4/20220805-080200.jpg'},
